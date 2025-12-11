@@ -10,9 +10,9 @@ plt.title('Temperaturas macximas e minimas')
 plt.xlabel('Datas')
 plt.ylabel('Temperatura')
 
-plt.plot(eixo_x_dias, eixo_y_temp_max)
-plt.plot(eixo_x_dias, eixo_y_temp_min)
+plt.plot(eixo_x_dias, eixo_y_temp_max, linestyle='--', marker='o')
+plt.plot(eixo_x_dias, eixo_y_temp_min, color='g', linewidth=6)
 
 plt.legend(['Temp max', 'Temp min'])
-
+plt.grid()
 plt.show()
